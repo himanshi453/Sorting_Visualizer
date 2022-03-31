@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: white;
+  
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#heading{
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin: 8 auto 8 auto ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+.h{
+  margin: 0;
+}
+
+.btn{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin: 4px;
+  font-size: 12px;
+}

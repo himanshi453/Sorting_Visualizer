@@ -1,0 +1,134 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+  }
+  
+  .array-container {
+    align-items: center;
+    display: block;
+    margin-top: auto;
+  }
+  
+  .array-bar {
+    background-color: blueviolet;
+    margin: 0.15%;
+  }
+  
+  .app-footer {
+    display: flex;
+    overflow-x: auto;
+    background-color: #333;
+    margin-top: auto;
+  }
+  
+  .app-footer ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    white-space: nowrap;
+  }
+  
+  .app-button {
+    border-radius: 0.4em;
+    border-width: 0.05em;
+    color: white;
+    padding: 0.5em;
+    margin: 0 0.5em;
+    background-color: transparent;
+  }
+  
+  .app-button:focus {
+    outline: none;
+  }
+  
+  .app-button:hover {
+    color: #333;
+    background-color: #eaeaea;
+  }
+  
+  .visualizer-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  @media (min-width: 700px) {
+    .app-footer {
+      justify-content: center;
+    }
+  }
+  
+
+  .array-container {
+    position: absolute;  
+  }
+  
+  .array-bar {
+    width: 8px;
+    display: inline-block;
+    margin: 0 1px;   
+  }
+
+  .Button{
+      margin-left: 20px;
+    
+  }
+
+  .bar{
+      margin-left: 80px;
+      margin-top: 80px;
+  }
+
+  .in{
+      font-size: 12px;
+ padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin: 4px;
+  font-size: 12px;
+    
+  }
+
+  #speed{
+      margin-left: 450px;
+  }
+
+
+  .slidecontainer {
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
